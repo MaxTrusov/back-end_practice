@@ -6,7 +6,8 @@ const port = process.env.PORT || 3000
 
 app.get('/about', (req: Request, res: Response) => {
    res.end(`<div>
-         <h1>Stroy-city</h1> 
+         <h1>Stroy-city </h1> 
+         <h2>строительный портал</h2>
          <p>Home page</p> 
          <nav>
             <ul> 
@@ -20,7 +21,8 @@ app.get('/about', (req: Request, res: Response) => {
 
 app.get('/services', (req: Request, res: Response) => {
    res.end(`<div> 
-   <h2>Stroy-city</h2> 
+   <h2>Stroy-city</h2>
+   <h3>строительный портал</h3> 
    <p>Services page</p>  
    <nav>
    <ul> 
