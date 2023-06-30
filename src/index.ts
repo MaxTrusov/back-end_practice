@@ -9,7 +9,6 @@ app.get('/about', (req: Request, res: Response) => {
          <h1>Stroy-city </h1> 
          <h2>строительный портал</h2>
          <p>Home page</p>
-         <h3>0x1f604</h3> 
          <nav>
             <ul> 
                <li> <a href="/about">Home page</a> </li>
